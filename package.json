@@ -1,5 +1,5 @@
 {
-    "name": "@piperguy/eslint-config",
+    "name": "@piperguy/eslint-config-react",
     "version": "0.1.0",
     "description": "💎 eslint configuration",
     "keywords": [
@@ -7,9 +7,9 @@
         "eslint-config",
         "prettier"
     ],
-    "homepage": "https://github.com/piperguy/eslint-config",
+    "homepage": "https://github.com/piperguy/eslint-config-react",
     "bugs": {
-        "url": "https://github.com/piperguy/eslint-config/issues"
+        "url": "https://github.com/piperguy/eslint-config-react/issues"
     },
     "license": "MIT",
     "author": {
@@ -19,21 +19,25 @@
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/piperguy/eslint-config"
+        "url": "https://github.com/piperguy/eslint-config-react"
     },
     "scripts": {
         "lint": "eslint .",
         "lint:fix": "eslint . --fix"
     },
     "peerDependencies": {
-        "eslint": "^8.4.1",
-        "eslint-config-prettier": "^8.3.0",
-        "eslint-plugin-simple-import-sort": "^7.0.0"
+        "eslint": "^8.8.0",
+        "eslint-plugin-jsx-a11y": "^6.4.1",
+        "eslint-plugin-react": "^7.21.5",
+        "eslint-plugin-react-hooks": "^4.2.0",
+        "react": "^18.2.0"
     },
     "devDependencies": {
-        "@babel/eslint-parser": "^7.16.3",
-        "eslint": "^8.4.1",
-        "eslint-config-prettier": "^8.3.0",
-        "eslint-plugin-simple-import-sort": "^7.0.0"
+        "@babel/eslint-parser": "^7.17.0",
+        "eslint": "^8.8.0",
+        "eslint-plugin-jsx-a11y": "^6.4.1",
+        "eslint-plugin-react": "^7.21.5",
+        "eslint-plugin-react-hooks": "^4.2.0",
+        "react": "^18.2.0"
     }
 }
