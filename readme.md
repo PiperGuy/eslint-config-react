@@ -1,4 +1,4 @@
-# 💎 eslint-config
+# 💎 eslint-config-react
 
 [![version][version-badge]][npm]
 [![downloads][downloads-badge]][npm]
